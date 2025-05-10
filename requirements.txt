@@ -1,0 +1,8 @@
+
+streamlit
+openai
+streamlit-option-menu
+pandas
+scikit-learn
+matplotlib
+joblib
