@@ -27,8 +27,9 @@ st.sidebar.markdown(f'*🕒 Current Time:* {current_time()}')
 # OpenAI Key (To be replaced with environment variable in deployment)
 openai.api_key = 'YOUR_OPENAI_API_KEY'
 
-# Welcome Page
+# Welcome Page with Hero Image
 if choice == 'Welcome Page':
+    st.image('https://raw.githubusercontent.com/Chattopadhyay/Arya/main/IMG_7632.JPEG', use_column_width=True)
     st.header('Welcome to AryaGPT - Your Personalized AI Teaching Assistant')
     st.markdown('''
     - 💡 **Student Q&A:** Get real-time answers to your questions.
@@ -108,4 +109,4 @@ elif choice == 'Module-Based Learning':
         )
         st.info(response.choices[0].text)
 
-st.sidebar.info('💡 AryaGPT v0.3 - Now with Real-Time Responses | Powered by OpenAI')
+st.sidebar.info('💡 AryaGPT v0.4 - Enhanced UI with Hero Image | Powered by OpenAI')
