@@ -68,7 +68,7 @@ openai.api_key = 'YOUR_OPENAI_API_KEY'
 # Welcome Page
 if selected == 'Welcome Page':
     try:
-        st.image('https://github.com/Chattopadhyay/Arya/raw/main/IMG_7632.JPEG', use_container_width=True)
+        st.image('https://github.com/Chattopadhyay/Arya/raw/main/IMG_7891.JPEG', use_container_width=True)
     except Exception as e:
         st.error("Image could not be loaded. Please check the path or internet connection.")
 
